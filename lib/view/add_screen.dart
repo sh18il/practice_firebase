@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:provider/provider.dart';
 import 'package:random_string/random_string.dart';
+import 'package:studentapp_firebase/controller/service_controller.dart';
 import 'package:studentapp_firebase/model/student_model.dart';
 import 'package:studentapp_firebase/service/student_service.dart';
 
@@ -13,6 +16,7 @@ class AddScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    StService service = StService();
     return SafeArea(
       child: Scaffold(
         body: Padding(
@@ -21,6 +25,23 @@ class AddScreen extends StatelessWidget {
             key: formKey,
             child: ListView(
               children: [
+                CircleAvatar(
+                  radius: 80,
+                  backgroundImage:
+                      service.file != null ? FileImage(service.file!) : null,
+                  child: service.file == null
+                      ? Icon(
+                          Icons.person,
+                          size: 80,
+                          color: Colors.grey,
+                        )
+                      : null,
+                ),
+                TextButton(
+                    onPressed: () {
+                      StService().pickImage(ImageSource.gallery);
+                    },
+                    child: Text("pick image")),
                 Gap(15),
                 TextFormField(
                   validator: (value) {
@@ -70,10 +91,9 @@ class AddScreen extends StatelessWidget {
                 ElevatedButton(
                     onPressed: () {
                       if (formKey.currentState!.validate()) {
-                          addData(context);
-                      Navigator.pop(context);
+                        addData(context);
+                        Navigator.pop(context);
                       }
-                    
                     },
                     child: Text("submit")),
               ],
@@ -85,6 +105,7 @@ class AddScreen extends StatelessWidget {
   }
 
   addData(BuildContext context) async {
+    final pro = Provider.of<ServiceController>(context, listen: false);
     String id = randomAlphaNumeric(10);
     StudentModel stModel = StudentModel(
         name: nameCtrl.text,

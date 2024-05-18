@@ -41,48 +41,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA7KwsL-mZ54IPZVytG5bi7_cxR5cQSnA4',
-    appId: '1:20794466737:web:56ce1240f96ae8c90a1d90',
-    messagingSenderId: '20794466737',
-    projectId: 'studentappfirebase-eceea',
-    authDomain: 'studentappfirebase-eceea.firebaseapp.com',
-    storageBucket: 'studentappfirebase-eceea.appspot.com',
-    measurementId: 'G-4YZ11QLE8X',
+    apiKey: 'AIzaSyDKzoIiwskKS7vWenihbCaRznFwRiVzvJ4',
+    appId: '1:809645972266:web:17f47404c72e2c1ec99c53',
+    messagingSenderId: '809645972266',
+    projectId: 'student-b3fab',
+    authDomain: 'student-b3fab.firebaseapp.com',
+    storageBucket: 'student-b3fab.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBLNVccVvhZLZD9RXN_2JmP0WDtQZCmXX8',
-    appId: '1:20794466737:android:6e65b42b4ba9168e0a1d90',
-    messagingSenderId: '20794466737',
-    projectId: 'studentappfirebase-eceea',
-    storageBucket: 'studentappfirebase-eceea.appspot.com',
+    apiKey: 'AIzaSyCa3svU8VJBCAa-RgWeE-X9nLjGOkHwoKk',
+    appId: '1:809645972266:android:0a9c8cd4b0fb23ecc99c53',
+    messagingSenderId: '809645972266',
+    projectId: 'student-b3fab',
+    storageBucket: 'student-b3fab.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC4PMefbUXN9NRiVBfVpMOGkI0ntgFVBQE',
-    appId: '1:20794466737:ios:b68defd380299b6a0a1d90',
-    messagingSenderId: '20794466737',
-    projectId: 'studentappfirebase-eceea',
-    storageBucket: 'studentappfirebase-eceea.appspot.com',
+    apiKey: 'AIzaSyDWhA5h2Ul-jBkYTIXZKatH44AdhUKyzl0',
+    appId: '1:809645972266:ios:77e4e3701230cd90c99c53',
+    messagingSenderId: '809645972266',
+    projectId: 'student-b3fab',
+    storageBucket: 'student-b3fab.appspot.com',
     iosBundleId: 'com.example.studentappFirebase',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC4PMefbUXN9NRiVBfVpMOGkI0ntgFVBQE',
-    appId: '1:20794466737:ios:b68defd380299b6a0a1d90',
-    messagingSenderId: '20794466737',
-    projectId: 'studentappfirebase-eceea',
-    storageBucket: 'studentappfirebase-eceea.appspot.com',
+    apiKey: 'AIzaSyDWhA5h2Ul-jBkYTIXZKatH44AdhUKyzl0',
+    appId: '1:809645972266:ios:77e4e3701230cd90c99c53',
+    messagingSenderId: '809645972266',
+    projectId: 'student-b3fab',
+    storageBucket: 'student-b3fab.appspot.com',
     iosBundleId: 'com.example.studentappFirebase',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA7KwsL-mZ54IPZVytG5bi7_cxR5cQSnA4',
-    appId: '1:20794466737:web:44f147460f8d76b20a1d90',
-    messagingSenderId: '20794466737',
-    projectId: 'studentappfirebase-eceea',
-    authDomain: 'studentappfirebase-eceea.firebaseapp.com',
-    storageBucket: 'studentappfirebase-eceea.appspot.com',
-    measurementId: 'G-1NFGYM7YHD',
+    apiKey: 'AIzaSyDKzoIiwskKS7vWenihbCaRznFwRiVzvJ4',
+    appId: '1:809645972266:web:491818932330cc03c99c53',
+    messagingSenderId: '809645972266',
+    projectId: 'student-b3fab',
+    authDomain: 'student-b3fab.firebaseapp.com',
+    storageBucket: 'student-b3fab.appspot.com',
   );
+
 }

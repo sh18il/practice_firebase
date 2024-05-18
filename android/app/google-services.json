@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "20794466737",
-    "project_id": "studentappfirebase-eceea",
-    "storage_bucket": "studentappfirebase-eceea.appspot.com"
+    "project_number": "809645972266",
+    "project_id": "student-b3fab",
+    "storage_bucket": "student-b3fab.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:20794466737:android:6e65b42b4ba9168e0a1d90",
+        "mobilesdk_app_id": "1:809645972266:android:0a9c8cd4b0fb23ecc99c53",
         "android_client_info": {
           "package_name": "com.example.studentapp_firebase"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBLNVccVvhZLZD9RXN_2JmP0WDtQZCmXX8"
+          "current_key": "AIzaSyCa3svU8VJBCAa-RgWeE-X9nLjGOkHwoKk"
         }
       ],
       "services": {

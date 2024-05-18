@@ -31,9 +31,12 @@ dependencies:
   cloud_firestore: 4.14.0
   cupertino_icons: ^1.0.2
   firebase_core: ^2.24.2
+  firebase_storage: ^11.6.0
   flutter:
     sdk: flutter
   gap: ^3.0.1
+  image_picker: ^1.0.8
+  provider: ^6.1.2
   random_string: ^2.3.1
   xbr_gaode_amap_pakege_android: ^0.0.3
 
